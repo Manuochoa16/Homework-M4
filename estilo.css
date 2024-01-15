@@ -1,0 +1,63 @@
+body {
+    background-color: green;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.items{
+    text-align: start;
+}
+
+.encabezado{
+    padding: 8px;
+}
+
+.foto {
+    height: 200px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.noticia{
+    border: 3px solid black;
+    width: 330px;
+    padding: 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia:hover{
+    background-color: rgb(90, 85, 85);
+    width: 330px;
+    padding: 2px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.titulos{
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+}
+
+#noticia-container {
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#registrate{
+    color: black;
+}
+
+#titular{
+    margin: 80px;
+    font-size: 30px;
+    text-align: center;
+}
